@@ -1,0 +1,159 @@
+body{
+  margin:0;
+  padding:0;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+.main{
+  width:75%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+
+text-align: center;
+padding:20px;
+}
+.heading{
+
+  font-size: 40px;
+  letter-spacing: 2;
+  color:hsl(0, 0%, 59%);
+  margin-bottom: 15px;
+}
+.heading-span{
+  font-weight: 700;
+color:black;
+}
+.lower-text{
+  color: #0C0404;
+
+
+}
+.form-component{
+  margin-top: 40px;
+}
+.email-address{
+width:30%;
+height:40px;
+border-radius: 25px;
+border-style:solid;
+border-color: hsl(0, 0%, 59%);
+margin-right: 5px;
+  text-indent: 20px;
+}
+.button{
+  width:15%;
+  height:45px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+}
+
+
+.error{
+  color: hsl(354, 100%, 66%);
+  display:block;
+  text-align: left;
+  margin-left: 320px;
+  visibility: hidden;
+}
+.red-border{
+  border-color: hsl(354, 100%, 66%);
+}
+.image-component{
+  margin-top: 70px;
+}
+footer{
+  margin-top: 50px;
+}
+.brand1{
+  margin-right: 15px;
+}
+.brand2{
+  margin-right: 15px;
+}
+@media only screen and (max-width: 450px) {
+  html{
+
+    width:100%;
+    height:100%;
+  }
+  body{
+    min-height: 100%;
+    min-width: 100%;
+
+  }
+
+.main{
+  width:100%;
+  padding:0px;
+  margin-top:20px;
+
+
+}
+.heading{
+  font-size: 25px;
+  letter-spacing: 1;
+
+}
+.email-address{
+  display:block;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-component{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.button{
+  display:block;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.img-class{
+  width:90%;
+}
+}
+@media only screen and (max-width: 390px){
+  html{
+
+    width:100%;
+    height:100%;
+  }
+  body{
+    min-height: 100%;
+    min-width: 100%;
+
+  }
+
+.main{
+  width:100%;
+  padding:0px;
+  margin-top:20px;
+  margin-left: 20px;
+
+
+}
+.heading{
+  font-size: 25px;
+  letter-spacing: 1;
+
+}
+.email-address{
+  display:block;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-component{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+}
